@@ -11,3 +11,4 @@ jobs:
     - uses: google-github-actions/release-please-action@v2
       with:
         release-type: simple
+        token: ${{ secrets.PERS_TOKEN }}
